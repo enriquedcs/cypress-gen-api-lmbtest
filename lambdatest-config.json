@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "<Your LambdaTest username>",
-      "access_key": "<Your LambdaTest access key>"
+      "username": "enrique.decoss@gmail.com",
+      "access_key": "rJdr2OmT4MRQl6Gxx3G8fuhtQljuLx11NheW2WSwCWdfpSTiuX"
    },
    "browsers": [
       {
@@ -20,16 +20,16 @@
       }
    ],
    "run_settings": {
-      "cypress_config_file": "cypress.config.js",
+      "cypress_config_file": "cypress.json",
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "build-name",
+      "build_name": "cypress-gen-api",
       "parallels": 1,
-      "specs": "<path_of_cypress_spec_files>",
+      "specs": "./cypress/integration/*.spec.js",
       "ignore_files": "",
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0"
+         "cypress": "9.7.0"
       }
    },
    "tunnel_settings": {
