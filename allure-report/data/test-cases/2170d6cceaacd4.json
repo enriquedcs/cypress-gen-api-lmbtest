@@ -1,0 +1,110 @@
+{
+  "uid" : "2170d6cceaacd4",
+  "name" : "API - Mocking a Response",
+  "fullName" : "APi Test using Cypress.API - Mocking a Response",
+  "historyId" : "b5b295ea8aed7ccce027bd2d93ab0c96",
+  "time" : {
+    "start" : 1655500477667,
+    "stop" : 0,
+    "duration" : -1655500477667
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testClass",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Mocking a Response"
+  }, {
+    "name" : "package",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a914192df397a073",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1655500477666,
+        "stop" : 1655500477666,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f0445bf08968424",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1655479616648,
+        "stop" : 1655479616648,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9142f5066fb187ef",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1655479616648,
+        "stop" : 0,
+        "duration" : -1655479616648
+      }
+    }, {
+      "uid" : "c22b4f8fd86ad19b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1655479506181,
+        "stop" : 0,
+        "duration" : -1655479506181
+      }
+    }, {
+      "uid" : "2f8186ff9c8bfdd9",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1655479506181,
+        "stop" : 1655479506181,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68bfbac82b1582c0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1655478173099,
+        "stop" : 0,
+        "duration" : -1655478173099
+      }
+    }, {
+      "uid" : "1899e2dd9e0b6886",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1655478173099,
+        "stop" : 1655478173099,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2170d6cceaacd4.json",
+  "parameterValues" : [ ]
+}

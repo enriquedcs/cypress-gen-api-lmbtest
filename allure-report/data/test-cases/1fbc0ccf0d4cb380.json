@@ -1,0 +1,66 @@
+{
+  "uid" : "1fbc0ccf0d4cb380",
+  "name" : "API - Create PDF from Documento",
+  "fullName" : "Obtener detalles del contenido del documento contrato.API - Create PDF from Documento",
+  "historyId" : "9234b8c71e0e098f1ed21f1f6464237f",
+  "time" : {
+    "start" : 1656008862690,
+    "stop" : 1656008863268,
+    "duration" : 578
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "testClass",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Create PDF from Documento"
+  }, {
+    "name" : "package",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c33e02598df76c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655846255546,
+        "stop" : 1655846256292,
+        "duration" : 746
+      }
+    }, {
+      "uid" : "39f002508fdd18bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655742461742,
+        "stop" : 1655742462214,
+        "duration" : 472
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fbc0ccf0d4cb380.json",
+  "parameterValues" : [ ]
+}

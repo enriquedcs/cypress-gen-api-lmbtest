@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "009febda79263c861958382b9e7046d4",
+    "name" : "APi Test using Cypress",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 1,
+      "total" : 5
+    }
+  }, {
+    "uid" : "a480d2551e50cf47e68226da481de45b",
+    "name" : "Obtener detalles del contenido del documento contrato",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

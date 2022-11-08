@@ -1,0 +1,48 @@
+{
+  "uid" : "11c4db08d79f12f3",
+  "name" : "API - Validate Content Values",
+  "fullName" : "APi Test using Cypress.API - Validate Content Values",
+  "historyId" : "3a344a1a59af17943d1dba332da1defa",
+  "time" : {
+    "start" : 1655479504378,
+    "stop" : 1655479504558,
+    "duration" : 180
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testClass",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Validate Content Values"
+  }, {
+    "name" : "package",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11c4db08d79f12f3.json",
+  "parameterValues" : [ ]
+}

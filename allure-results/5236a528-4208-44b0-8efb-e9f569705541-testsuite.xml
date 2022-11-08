@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655500474927' stop='1655500477667'>
+    <name>APi Test using Cypress</name>
+    <title>APi Test using Cypress</title>
+    <test-cases>
+        <test-case start='1655500474927' status='passed' stop='1655500475432'>
+            <name>API - Validate Headers</name>
+            <title>API - Validate Headers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655500475443' status='passed' stop='1655500475665'>
+            <name>API - Validate Status Code</name>
+            <title>API - Validate Status Code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655500475674' status='passed' stop='1655500475913'>
+            <name>API - Validate Content Values</name>
+            <title>API - Validate Content Values</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655500475919' status='passed' stop='1655500477651'>
+            <name>API - Validate Negative status code</name>
+            <title>API - Validate Negative status code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655500477666' status='pending' stop='1655500477666'>
+            <name>API - Mocking a Response</name>
+            <title>API - Mocking a Response</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1655500477667' status='undefined'>
+            <name>API - Mocking a Response</name>
+            <title>API - Mocking a Response</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

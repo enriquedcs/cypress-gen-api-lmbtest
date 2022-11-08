@@ -1,0 +1,48 @@
+{
+  "uid" : "39f002508fdd18bc",
+  "name" : "API - Create PDF from Documento",
+  "fullName" : "Obtener detalles del contenido del documento contrato.API - Create PDF from Documento",
+  "historyId" : "9234b8c71e0e098f1ed21f1f6464237f",
+  "time" : {
+    "start" : 1655742461742,
+    "stop" : 1655742462214,
+    "duration" : 472
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "testClass",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Create PDF from Documento"
+  }, {
+    "name" : "package",
+    "value" : "Obtener detalles del contenido del documento contrato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39f002508fdd18bc.json",
+  "parameterValues" : [ ]
+}

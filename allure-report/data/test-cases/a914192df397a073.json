@@ -1,0 +1,50 @@
+{
+  "uid" : "a914192df397a073",
+  "name" : "API - Mocking a Response",
+  "fullName" : "APi Test using Cypress.API - Mocking a Response",
+  "historyId" : "b5b295ea8aed7ccce027bd2d93ab0c96",
+  "time" : {
+    "start" : 1655500477666,
+    "stop" : 1655500477666,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testClass",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Mocking a Response"
+  }, {
+    "name" : "package",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a914192df397a073.json",
+  "parameterValues" : [ ]
+}

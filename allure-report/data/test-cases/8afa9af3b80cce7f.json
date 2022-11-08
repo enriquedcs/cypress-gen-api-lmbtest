@@ -1,0 +1,48 @@
+{
+  "uid" : "8afa9af3b80cce7f",
+  "name" : "API - Validate Negative status code",
+  "fullName" : "APi Test using Cypress.API - Validate Negative status code",
+  "historyId" : "f63a1b694e52c4af22295de09c29559f",
+  "time" : {
+    "start" : 1655479616508,
+    "stop" : 1655479616638,
+    "duration" : 130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testClass",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Validate Negative status code"
+  }, {
+    "name" : "package",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8afa9af3b80cce7f.json",
+  "parameterValues" : [ ]
+}

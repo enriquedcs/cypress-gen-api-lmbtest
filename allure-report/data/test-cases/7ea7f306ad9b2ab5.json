@@ -1,0 +1,74 @@
+{
+  "uid" : "7ea7f306ad9b2ab5",
+  "name" : "API - Validate Content Values",
+  "fullName" : "APi Test using Cypress.API - Validate Content Values",
+  "historyId" : "3a344a1a59af17943d1dba332da1defa",
+  "time" : {
+    "start" : 1655500475674,
+    "stop" : 1655500475913,
+    "duration" : 239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testClass",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "testMethod",
+    "value" : "API - Validate Content Values"
+  }, {
+    "name" : "package",
+    "value" : "APi Test using Cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dea668fc4742a972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655479616325,
+        "stop" : 1655479616498,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "11c4db08d79f12f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655479504378,
+        "stop" : 1655479504558,
+        "duration" : 180
+      }
+    }, {
+      "uid" : "77e3c013564bcfdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655478171459,
+        "stop" : 1655478171624,
+        "duration" : 165
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ea7f306ad9b2ab5.json",
+  "parameterValues" : [ ]
+}

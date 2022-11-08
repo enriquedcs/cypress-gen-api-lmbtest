@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 17 16:14:35 CDT 2022","Fri Jun 17 16:14:35 CDT 2022","239","","APi Test using Cypress","","APi Test using Cypress","API - Validate Content Values","API - Validate Content Values",""
+"passed","Fri Jun 17 16:14:35 CDT 2022","Fri Jun 17 16:14:35 CDT 2022","222","","APi Test using Cypress","","APi Test using Cypress","API - Validate Status Code","API - Validate Status Code",""
+"passed","Fri Jun 17 16:14:34 CDT 2022","Fri Jun 17 16:14:35 CDT 2022","505","","APi Test using Cypress","","APi Test using Cypress","API - Validate Headers","API - Validate Headers",""
+"unknown","Fri Jun 17 16:14:37 CDT 2022","Wed Dec 31 18:00:00 CST 1969","-1655500477667","","APi Test using Cypress","","APi Test using Cypress","API - Mocking a Response","API - Mocking a Response",""
+"passed","Fri Jun 17 16:14:35 CDT 2022","Fri Jun 17 16:14:37 CDT 2022","1732","","APi Test using Cypress","","APi Test using Cypress","API - Validate Negative status code","API - Validate Negative status code",""
+"passed","Thu Jun 23 13:27:42 CDT 2022","Thu Jun 23 13:27:43 CDT 2022","578","","Obtener detalles del contenido del documento contrato","","Obtener detalles del contenido del documento contrato","API - Create PDF from Documento","API - Create PDF from Documento",""

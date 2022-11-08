@@ -1,0 +1,61 @@
+[ {
+  "uid" : "7ea7f306ad9b2ab5",
+  "name" : "API - Validate Content Values",
+  "time" : {
+    "start" : 1655500475674,
+    "stop" : 1655500475913,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "398933579badf5aa",
+  "name" : "API - Validate Status Code",
+  "time" : {
+    "start" : 1655500475443,
+    "stop" : 1655500475665,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "854e5871d0ee9ab7",
+  "name" : "API - Validate Headers",
+  "time" : {
+    "start" : 1655500474927,
+    "stop" : 1655500475432,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2170d6cceaacd4",
+  "name" : "API - Mocking a Response",
+  "time" : {
+    "start" : 1655500477667,
+    "stop" : 0,
+    "duration" : -1655500477667
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "b7cb71095b6f1965",
+  "name" : "API - Validate Negative status code",
+  "time" : {
+    "start" : 1655500475919,
+    "stop" : 1655500477651,
+    "duration" : 1732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fbc0ccf0d4cb380",
+  "name" : "API - Create PDF from Documento",
+  "time" : {
+    "start" : 1656008862690,
+    "stop" : 1656008863268,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

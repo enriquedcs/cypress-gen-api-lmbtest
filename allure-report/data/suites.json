@@ -1,0 +1,115 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "APi Test using Cypress",
+    "children" : [ {
+      "name" : "API - Validate Headers",
+      "uid" : "854e5871d0ee9ab7",
+      "parentUid" : "009febda79263c861958382b9e7046d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655500474927,
+        "stop" : 1655500475432,
+        "duration" : 505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "API - Validate Status Code",
+      "uid" : "398933579badf5aa",
+      "parentUid" : "009febda79263c861958382b9e7046d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655500475443,
+        "stop" : 1655500475665,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "API - Validate Content Values",
+      "uid" : "7ea7f306ad9b2ab5",
+      "parentUid" : "009febda79263c861958382b9e7046d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655500475674,
+        "stop" : 1655500475913,
+        "duration" : 239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "API - Validate Negative status code",
+      "uid" : "b7cb71095b6f1965",
+      "parentUid" : "009febda79263c861958382b9e7046d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655500475919,
+        "stop" : 1655500477651,
+        "duration" : 1732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "API - Mocking a Response",
+      "uid" : "2170d6cceaacd4",
+      "parentUid" : "009febda79263c861958382b9e7046d4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1655500477667,
+        "stop" : 0,
+        "duration" : -1655500477667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "009febda79263c861958382b9e7046d4"
+  }, {
+    "name" : "Obtener detalles del contenido del documento contrato",
+    "children" : [ {
+      "name" : "API - Create PDF from Documento",
+      "uid" : "1fbc0ccf0d4cb380",
+      "parentUid" : "a480d2551e50cf47e68226da481de45b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656008862690,
+        "stop" : 1656008863268,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a480d2551e50cf47e68226da481de45b"
+  } ]
+}
