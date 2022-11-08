@@ -2,7 +2,7 @@
    <img alt="Tested with cypress" src="https://img.shields.io/badge/cypress-dashboard-brightgreen.svg">
 </a>
 
-# API in Cypress
+# API Testing using Cypress
 
 Test Script for API with Cypress
 
