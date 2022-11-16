@@ -5,25 +5,32 @@
    },
    "browsers": [
       {
+         "browser": "MicrosoftEdge",
+         "platform": "Windows 10",
+         "versions": [
+            "latest"
+         ]
+      },
+      {
          "browser": "Chrome",
          "platform": "Windows 10",
          "versions": [
-            "latest-1"
+            "latest"
          ]
       },
       {
          "browser": "Firefox",
          "platform": "Windows 10",
          "versions": [
-            "latest-1"
+            "latest"
          ]
       }
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "cypress-gen-api",
-      "parallels": 1,
+      "build_name": "cypress api - build",
+      "parallels": 5,
       "specs": "./cypress/integration/*.spec.js",
       "ignore_files": "",
       "network": false,

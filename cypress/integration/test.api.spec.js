@@ -1,18 +1,14 @@
 import config from './config.json'
 import { faker } from '@faker-js/faker'
-import MainMethod from '../../cypress/builder/components/Mainmethods'
+import MainMethod from '../builder/components/Mainmethods'
  
 describe('API Testing ', function () {
     let att1
     let att2   
 
-    it.only('API - GET details', () => {
-        //cy.request({
-        //    method: 'GET',
-        //    url: `${config.URL}`,
-        //    failOnStatusCode: false,
-        //}).as('details')
-        MainMethod.GetMethod(`${config.URL}`)
+    it('API - GET details', () => {
+
+        MainMethod.GetDelMethod(`${config.URL}`,'GET')
         //Validate status code
         cy.get('@details').its('status').should('eq', 200)
         cy.get('@details').then((response) => {
@@ -21,18 +17,12 @@ describe('API Testing ', function () {
     })
 
     it('API - POST Request', () => {
-        cy.request({
-            method: 'POST',
-            url: `${config.URL}`,
-            failOnStatusCode: false,
-            'auth': {
-                'bearer': `${config.Bearer_Rest}`
-            },
-            body: {'name':faker.internet.userName(), 
-            'gender':'male', 
-            'email':faker.internet.email(), 
-            'status':'active'}
-        }).as('details')
+        const body = {'name':faker.internet.userName(), 
+                'gender':'male', 
+                'email':faker.internet.email(), 
+                'status':'active'}
+        //Method
+        MainMethod.PostMethod(`${config.URL}`, JSON.parse(JSON.stringify(body)))
         //Validate status code
         cy.get('@details').its('status').should('eq', 201)
         cy.get('@details').then((response) => {
@@ -48,19 +38,14 @@ describe('API Testing ', function () {
     })
 
     it('API Post - POST Request', () => {
-        cy.request({
-            method: 'POST',
-            url: `${config.URL2}`,
-            failOnStatusCode: false,
-            'auth': {
-                'bearer': `${config.Bearer_Rest}`
-            },
-            body: {'user':att2,
-            'user_id': att1, 
-            'email':faker.internet.email(), 
-            'title':'This is a title',
-            'body': 'This is a message'}
-        }).as('details')
+        const body = {'name':att1,
+                'user_id': att1, 
+                'gender':'male', 
+                'email':faker.internet.email(), 
+                'title':'This is a title',
+                'body': 'This is a message'}
+        //Method
+        MainMethod.PostMethod(`${config.URL2}`, JSON.parse(JSON.stringify(body)))
         //Validate status code
         cy.get('@details').its('status').should('eq', 201)
         cy.get('@details').then((response) => {
@@ -91,26 +76,15 @@ describe('API Testing ', function () {
         cy.get('@details').its('status').should('eq', 200)
         cy.get('@details').then((response) => {
             cy.log(JSON.stringify(response.body))
-        })
-            
+        })         
     })
 
     it('API - DELETE Request', () => {
-        cy.request({
-            method: 'DELETE',
-            url: `${config.URL}`+att1,
-            failOnStatusCode: false,
-            'auth': {
-                'bearer': `${config.Bearer_Rest}`
-            },
-        }).as('details')
-        //Validate response code
+        MainMethod.GetDelMethod(`${config.URL}`+att1,'DELETE')
         cy.get('@details').its('status').should('eq', 204)
         cy.get('@details').then((response) => {
             cy.log(JSON.stringify(response.body))
-        })
-        
-            
+        })     
     })
 
 })

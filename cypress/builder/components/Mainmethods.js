@@ -1,11 +1,30 @@
+import config from '../../integration/config.json'
 
 export default class MainMethods {
 
-    static GetMethod(url){
+    static GetDelMethod(url,method){
         cy.request({
-            method: 'GET',
+            method: method,
             url: url,
             failOnStatusCode: false,
+            'auth': {
+                'bearer': `${config.Bearer_Rest}`
+            },
+        }).as('details')
+
+    }
+
+    static GetDelMethodLam(url,method){
+        cy.request({
+            method: method,
+            url: url,
+            failOnStatusCode: false,
+            'headers' : {
+                'accept': 'application/octet-stream',
+                'content-type': 'application/x-gzip',
+                'Authorization': "Basic "
+            },
+
         }).as('details')
 
     }
@@ -16,9 +35,23 @@ export default class MainMethods {
             url: url,
             failOnStatusCode: false,
             'auth': {
-                'bearer': 'e2360bb230c2fc83af7451f8346d9fcdb699879e3a8f14462a2187f9d670675e'
+                'bearer': `${config.Bearer_Rest}`
             },
             body: body
+        }).as('details')
+    }
+
+    static PatchMethodLam(url){
+        cy.request({
+            method: 'PATCH',
+            url: url,
+            failOnStatusCode: false,
+            'headers' : {
+                'accept': 'application/json',
+                'Authorization': "Basic "
+            },
+            body: { 'name': 'cypress - api mod2 cypress' }
+              
         }).as('details')
     }
 

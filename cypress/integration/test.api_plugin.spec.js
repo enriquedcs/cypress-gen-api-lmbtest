@@ -4,17 +4,6 @@ import { faker } from '@faker-js/faker'
 describe('API Testing ', function () {
     let att1   
 
-    it('API - GET details', () => {
-        cy.api({
-            method: 'GET',
-            url: `${config.URL}`,
-        }).as('details')
-        //Validate status code
-        cy.get('@details').its('status').should('eq', 200)
-        cy.get('@details').then((response) => {
-            cy.log(JSON.stringify(response.body))
-        })
-    })
 
     it('API - POST Request', () => {
         cy.api({
